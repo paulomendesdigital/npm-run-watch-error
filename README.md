@@ -3,10 +3,12 @@
 ## For error `Error: watch path/to/file ENOSPC`
 
 Verify if the file `/etc/sysctl.d/99-sysctl.conf` exist
-  - If not exist, create with the code below
+  - If not exist, create it with the code below
 ```
 sudo touch /etc/sysctl.d/99-sysctl.conf
 ```
+
+-----
 
 Then run the code below to fix the error
 ```
